@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+/* 상세 사진 */
+.image{
+	float: left;
+}
+.img-title{
+	margin: 10px 120px 100px;
+	width: 550px;
+	height: 700px;	
+}
+
+/* 상세 글 */
+h2{
+	margin: 80px 0 30px;
+}
+
+.info{
+	font-size: 20px;
+	margin: 30px 0 100px;
+}
+
+/* 버튼 */
+button{
+	width: 550px;
+	height: 50px;
+	color: white;
+	background-color: black;
+	border-radius: 10px;
+	font-size: 20px;
+	margin: 50px 0 10px;
+		
+}
+
+/* 유의사항 */
+h3{ margin: 210px 120px 10px;
+	display: block;}
+
+.radius_box {
+    background: #f8f8f8;
+    padding: 12px 15px;
+    border-radius: 10px;
+    margin: 0 120px 50px;   
+
+}
+.viewpage_text {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #000;
+    line-height: 180%;
+    letter-spacing: 0;
+}
+
+.red{ color: red; }
+
+/* 장소안내 */
+.place_box {
+    background: #f8f8f8;
+    padding: 12px 15px;
+    border-radius: 10px;
+    margin: 0 120px 50px;   
+
+}
+.place_text {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #000;
+    line-height: 180%;
+    letter-spacing: 0;
+}
+

@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+
+
+@media (min-width : 600px) {
+	.main {
+	 display : block;
+	}
+	footer {
+	 display : block;
+	 text-align : center; 
+	}
+
+}

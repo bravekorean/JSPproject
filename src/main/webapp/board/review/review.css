@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+/* 정렬 */
+.into-ul {
+   float : right;
+}
+.into-ul .into-li{
+   display: inline-block;
+   position: relative;
+   font-size: 1.3rem;
+   margin: 20px 20px 30px; 
+   padding-left: 1rem;
+}
+
+
+/* 버튼 */
+.review-btn {
+   position : relative;
+   float : right;
+   left : 370px;
+   margin-top : 30px;
+   margin-right : 20px;
+}
+
+.review-btn > button{
+   margin: 30px 0px 30px;
+   font-size: 20px;
+   border-radius: 5px;
+   background-color: black;
+   color: white;
+   width: 150px;
+   height: 50px;
+}
+
+/* 리뷰박스 */
+li{
+   list-style: none;
+}
+
+.review-box > form > input{
+    position: relative;
+    border-radius: 1rem;
+    border: none;
+   	display: block;
+    width: 100%;
+    padding: 2vh 2vh;
+    outline:none;
+    font-size: 1.3rem;
+}
+
+.review-box{
+   	position : relative;
+    border: 0.1rem solid #dfe5ed;
+    box-sizing: border-box;
+    border-radius: 1rem;
+    padding: 2rem 2rem;
+    margin: 15px;
+    margin-top : 150px;
+}
+
+.data-ul .data-li{
+    display: inline-block;
+    position: relative;
+    font-size: 1.3rem;
+    line-height: 2.3rem;
+    vertical-align: middle;
+    margin-left: 1rem; 
+    padding-left: 1rem;
+}
+
+.data{
+    justify-content: space-between;
+   display:table-cell;
+   float:right;
+    text-align: right;
+}
+
+strong{
+   font-size: 1.5rem;
+}
+
+p{
+   font-size: 1.3rem;
+}
+
+/* 더보기 */
+.text::after {
+   font-size: 1.3rem;
+    display: block;
+    padding-right: 0.6rem;
+    text-align: right;
+    line-height: 170%;
+    content: '더보기';
+}
+
+/* 공감 */
+.like{   
+   position: relative;
+    top: 0.3rem;
+    display: inline-block;
+    width: 2.1rem;
+    height: 1rem;
+    margin-left: 0.3rem;
+    background-position: 100% 50%;
+}
+
+.like::before{
+   background-image: url(//openimage.interpark.com/ticket-desktop/pages/product/icon_heart.png);
+    background-repeat: no-repeat;
+    display: block;
+    width: 1.7rem;
+    height: 1rem;
+    margin: 0 auto;
+    background-position: 0 0;
+    content: '';
+}
+
+/* rating 부분*/
+.star {
+  font-size: 24px;
+  cursor: pointer;
+  color: #ccc;
+}
+
+.star.filled {
+  color: gold;
+}
+

@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+footer {
+	display : block;
+	text-align : center;
+}
+/* 로고 */
+.image{
+   width: 200px;
+    height: 130px;
+    padding: 10px;
+    margin: auto;    
+}
+#logo {
+    width: 180px;
+    height: 40px;
+    cursor: pointer;
+}
+/* 메인 */
+#wrapper {
+     display: flex;
+    justify-content: center;
+     align-items: center;
+     min-height: 100vh;   
+}
+#main {
+      position: relative;
+      height: 600px;
+      width: 600px;
+      text-align : center;
+      font-family: Dotum,'돋움',Helvetica,sans-serif;
+     font-size: 20px;
+     padding: 2rem;
+      border-radius: 2rem;
+   text-align: left;
+   border: 1px solid;
+}
+
+/* svg, id */
+.sid{
+   text-align:left;
+   
+}
+
+svg{
+   width: 60px;
+   height: 60px;
+}
+
+.line1 {
+      border : 0;
+     height: 5px;
+     background : black;
+}
+
+/* 이메일, 이름, 비번, 전화  */
+.enpp{
+   margin: 10px;
+}
+
+h3{
+   font-size: 15px;
+   text-align: left;
+   color: rgb(150, 150, 150);
+}
+
+.as{
+   color: gray;
+   margin: 9px;
+   padding-left:250px;
+   text-decoration: none;
+}
+
+.hr{
+   width: 600px;
+}
+
+input{
+   width:100px;
+   height:30px;
+   margin-top: 30px;
+   background-color: black;
+   color: white;
+   border-radius: 1rem;
+   text-align : center;
+}
+
+@media (max-width : 600px) {
+	
+	#wrapper {
+	 display : block;
+	 
+	}
+	#main {
+	display : block;
+	}
+}

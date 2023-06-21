@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+/* header 부분 */
+#hd{
+	text-decoration:none;
+	color:black;
+	text-align: right;
+}
+
+/* 상단 메뉴 */
+*{padding:0;
+  margin:0;}
+  
+ul,ol{list-style:none;}
+
+#ct{
+	text-decoration:none;
+ 	color:white;
+  	font-size:20px;}
+
+nav{width:100%;
+	overflow:hidden;
+	height:55px;
+	background-color:black;
+	margin:50px auto;}
+
+#menu{text-align:center;}
+
+#menu>ul{display:inline-block;}
+
+#menu>ul li{
+			float:left;
+			padding:0 30px;
+			line-height:50px}
+
+#header {
+	width : auto;
+	height : 40px;
+	
+}
+
+/* 로고 표시 */
+.logo {
+	width : 20px;
+	height : 25px;
+	float : left;
+	padding : 15px;
+	
+}
+.logo>a>img {
+	width : 140px;
+	height : 70px;
+	
+}
+/* 메인화면 로그인, 회원가입 */
+.headerlog {
+	text-decoration:none;
+	color:black;
+	float : rigth;
+	text-align: right;
+	padding : 30px;
+}
+/* copyright 수정탭 */
+
+.copyright {
+	display : block;
+	margin : 20px;
+	text-align : center;
+}
+
+footer {
+	display : block;
+	text-align : center;
+	  position : relative;
+  transform : translateY(-100%);
+}

@@ -1,0 +1,149 @@
+@charset "UTF-8";
+
+
+@media (min-width : 600px ) {
+	
+	
+	
+	
+html, body {
+    height: 100%;
+    margin: 0;
+  	padding: 0;
+}
+
+/* section 부분 */
+#wrap{
+   	min-height: 1vh;
+    position: relative;
+    width: 100%;
+    
+}
+
+/* 지역 메뉴 */ 
+.ma{
+	display: inline-block;
+    text-decoration: none;
+    text-align: left;
+    font-size: 20px;	
+	color: black;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+.la {
+  display: inline-block;
+  text-decoration: none;
+  text-align: left;
+  font-size: 20px;
+  color: black;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.area-d{
+	list-style: none;
+	display: block;
+	
+}
+
+.sort-d {
+  display: inline-block;
+  float : right;
+  margin-right : 70px;
+}
+
+
+/* 카드 */
+.card{
+      width: 320px;
+      flex-direction: column;
+      margin: 30px;
+      float: left;
+      
+}
+
+.card-img {
+      height: 350px;
+      display: flex;
+    }
+    
+.card-img-top{
+	 border-radius:10px;
+	 width: 100%;
+}
+
+.card-head{
+	 height: 60px;
+    }
+
+.card-main{
+     height: 90px;
+    }
+    
+.card-footer{
+     height: 50px;
+   
+    }
+    
+button {
+	 border-radius:5px;
+	 background-color:black;
+	 color:white;
+	 margin:3px;
+	 height:35px;
+	 width: 80px;
+}
+
+button:hover {
+	background-color: gray;
+}
+
+footer{
+	width: 100%;
+	height: 30px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+
+/* footer.jsp 부분 */
+.copyright {
+	
+	width: 100%;
+	height: 30px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+
+.hrsize {
+	margin : 30px;
+	width: 100%;
+	position : absolute;
+	
+}
+.psize {
+	
+	 margin:50px;
+	 
+
+}
+
+.pagination {
+	text-align:center;
+	position : absolute;
+	left : 50%;
+	transform: translate(-50%,-50%);
+	margin : 20px;
+}
+.pagination>ul {
+	display:inline-block;
+	
+}
+.pagination>ul>li {
+	float:left;
+	padding:0 30px;
+	line-height:50px;
+}
+}

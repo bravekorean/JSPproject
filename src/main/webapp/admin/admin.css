@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+@media(min-width : 600px) {
+	
+.adminheader {
+	text-align : center;
+	}
+
+/* 상단 메뉴 */
+*{padding:0;
+  margin:0;}
+  
+ul,ol{list-style:none;}
+
+#ct{
+	text-decoration:none;
+ 	color:white;
+  	font-size:20px;}
+
+nav{width:100%;
+	overflow:hidden;
+	height:55px;
+	background-color:black;
+	margin:25px auto;}
+
+#menu{text-align:center;}
+
+#menu>ul{display:inline-block;}
+
+#menu>ul li{
+			float:left;
+			padding:0 30px;
+			line-height:50px;
+			color : white;}
+#menu>ul> li > a {
+	color : white;
+}
+.searchinfo {
+	float : right;
+}
+.search {
+	width:100%;
+	overflow:hidden;
+	height:55px;
+}
+
+.tbodytbl {
+  	justify-content: center;
+}
+
+.input-t{
+	height: 30px;
+	width: 200px;
+}
+
+.select-b{
+	 border-radius:5px;
+	 background-color:black;
+	 color:white;
+	 margin:3px;
+	 height:35px;
+	 width: 80px;
+}
+
+	}
