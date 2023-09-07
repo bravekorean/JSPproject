@@ -111,7 +111,7 @@ function requestPay() {
 	
 	const merchant_uid = 'TRD' + new Date().getTime() + '-' + Math.floor(Math.random() * 1000000);
 	
-	IMP.init("imp57227427"); // 테스트코드
+	IMP.init("{test.code}"); // 테스트코드
 	
     IMP.request_pay(
    {
