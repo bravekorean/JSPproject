@@ -32,7 +32,7 @@ if (mPageParam != null && !mPageParam.isEmpty()) {
 	session.setAttribute("mPage", mPageParam);
 }
     // API 호출 및 XML 파싱
-    String serviceKey = "cKJJepR6t5fqno1sj6HBXC7eGXMU4lc5Fgh5895eaEBfkz7one0Zt9hHVxkdg983tk5IYVXs8wYF5%2FabbHvzow%3D%3D";
+     String serviceKey = "{service.key}";
     String realmCode = "B000";
     String sortkey = "1";
     String iPage = "1";
