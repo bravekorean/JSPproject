@@ -35,7 +35,7 @@ userphonenumber = (String)session.getAttribute("UserPhonenumber");
 String seq = request.getParameter("seq");
 String thumb = request.getParameter("thumb");
 session.setAttribute("thumb",thumb);
-String serviceKey = "cKJJepR6t5fqno1sj6HBXC7eGXMU4lc5Fgh5895eaEBfkz7one0Zt9hHVxkdg983tk5IYVXs8wYF5%2FabbHvzow%3D%3D";
+ String serviceKey = "{service.key}";
 
 callinfo infoapi = new callinfo(serviceKey,seq);
 exhiDTO dto = new exhiDTO(thumb);
