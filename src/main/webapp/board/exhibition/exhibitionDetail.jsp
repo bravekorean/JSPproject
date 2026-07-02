@@ -91,7 +91,7 @@
 <head>
 <link href="../header.css" rel="stylesheet" type="text/css" />
 <link href="exhibitionDetail.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=32d50ac7ae928efed6cd0fda2a10ee03&libraries=services"></script>
+<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey={kakao.appkey}&libraries=services"></script>
 <meta charset="UTF-8">
 <title>상세 정보</title>
 </head>
